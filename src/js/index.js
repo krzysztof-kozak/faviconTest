@@ -6,29 +6,35 @@ registerSW();
 
 /* place your code below */
 
-console.log("HELLO 🚀");
 
-let counter = document.querySelector(".hydrapp__counter");
+const counter = document.querySelector(".hydrapp__counter");
 const addGlass = document.querySelector(".button__addGlass");
 const removeGlass = document.querySelector(".button__removeGlass");
+const key = new Date().toLocaleString().slice(0, 10);
+const localStorageValue = localStorage.getItem(key);
+let counterValue = 0;
 
-let counterValue = "0";
 
-addGlass.addEventListener("click", () => {
+
+if (localStorageValue) {
+  counterValue = localStorageValue;
+  counter.innerHTML = counterValue;
+} else {
+  localStorage.setItem(key, 0);
+}
+
+
+
+addGlass.addEventListener("click", () =>{
   counterValue++;
   counter.innerHTML = counterValue;
-  console.log("???");
-});
+  localStorage.setItem(key, counterValue);
+})
 
-removeGlass.addEventListener("click", () => {
-  if (counterValue >= 1) {
-    counterValue--;
-    counter.innerHTML = counterValue;
-    console.log("!!!");
-  } else {
-    //do nothing;
-  }
-});
-
-//Wartość szklanek przechowuj w localstorage pod kluczem z
-// dzisiejszą datą. const key = new Date().toISOString().slice(0, 10)
+removeGlass.addEventListener("click", () =>{
+  if(counterValue>0) {
+  counterValue--;
+  counter.innerHTML = counterValue;
+  localStorage.setItem(key, counterValue);
+}
+})
