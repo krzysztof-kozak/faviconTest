@@ -1,18 +1,15 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](gh\hydrappCover.jpg)
 
-# WTF Webpack Starter Kit 
+# Hydrapp :potable_water:
 
-Simple toolkit for your static websites development.
+Remember to water yourself! App to count amout of glasses of water you drank during the day.
 
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Simply click on `Add glass` button everytime you drank one, or `Remove glass` button in case of mistake. Total amount of glasses is saved in local storage, day by day. You can see it in the console. In few days app will be updated, instead of opening console, you will be able to preview history in another page. 
+(You can install this app locally)
+## Tech quick info
 
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+*javascript *css *scss *html  *localstorage *pwa-apps
+*webpack
 
