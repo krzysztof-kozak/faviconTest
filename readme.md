@@ -1,6 +1,6 @@
-![cover](gh\hydrappCover.jpg)
+![cover](https://raw.githubusercontent.com/gorskimarcin8/hydrapp/master/gh/hydrappCover.jpg)
 
-# Hydrapp :potable_water:
+# Hydrapp 
 
 Remember to water yourself! App to count amout of glasses of water you drank during the day.
 
@@ -10,6 +10,11 @@ Simply click on `Add glass` button everytime you drank one, or `Remove glass` bu
 (You can install this app locally)
 ## Tech quick info
 
-*javascript *css *scss *html  *localstorage *pwa-apps
-*webpack
+* javascript 
+* css 
+* scss 
+* html  
+* localstorage 
+* pwa-apps
+* webpack
 
