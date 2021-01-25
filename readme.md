@@ -1,4 +1,4 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](https://www.canva.com/design/DAELA9ozS0Q/suyK9rPFrZM6tchhb6habw/view?utm_content=DAELA9ozS0Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 # WTF Webpack Starter Kit 
 
